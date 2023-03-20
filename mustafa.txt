@@ -1,1 +1,15 @@
+EC2 Instance Connect
 
+Session Manager
+
+SSH client
+
+EC2 serial console
+Instance ID
+i-020058d2f0be07c47 (Jenkins 2)
+Public IP address
+ 54.176.57.64
+User name
+Enter the user name defined in the AMI used to launch the instance. If you didn't define a custom user name, use the default user name, ec2-user.
+ec2-user
+Note: In most cases, the default user name, ec2-user, is correct. However, read your AMI usage instructions to check if the AMI owner has changed the default AMI user name.
