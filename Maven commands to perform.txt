@@ -1,0 +1,72 @@
+Maven commands to practice:
+
+1  yum install java-1.8.0-openjdk -y
+    2  java -version
+    6  wget https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
+    7  ll
+    8  tar -zxvf apache-maven-3.9.0-bin.tar.gz
+    9  ll
+   10  yum install maven -y
+   11  mvn -version
+   12  mvn -v
+   13  ll
+   14  cd apache-maven-3.9.0
+   15  ll
+   16  mvn archetype:generate
+   17  ll
+   18  cd swiggy
+   19  ll
+   20  cd src
+   21  ll
+   22  cd main
+   23  ll
+   24  cd java
+   25  ll
+   26  cd devops
+   27  ll
+   28  vim App.java
+   29  cd ../../../
+   30  cd ..
+   31  mvn compile
+   32  cd swiggy
+   33  mvn compile
+   34  ll
+   35  cd target
+   36  ll
+   37  cd classes
+   38  ll
+   39  cd devops
+   40  ll
+   41  cat App.class
+   42  clear
+   43  ll
+   44  vim App.class
+   45  cd ../../..
+   46  mvn test
+   47  ll
+   48  cd target
+   49  ll
+   50  cd ../..
+   51  cd swiggy
+   52  mvn package
+   53  ll
+   54  cd target
+   55  ll
+   56  cd ../
+   57  mvn install
+   58  clean
+   59  mvn clean
+   60  ll
+   61  mvn clean package
+   62  ll
+   63  cd target
+   64  ll
+   65  mvn clean package
+   66  cd target
+   67  ll
+   68  cd ../
+   69  mvn clean package
+   70  ll
+   71  cd target
+   72  ll
+   73  history
