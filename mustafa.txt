@@ -1,12 +1,3 @@
 EC2 Instance Connect
 
-Session Manager
-
-SSH client
-
-EC2 serial console
-Instance ID
-i-020058d2f0be07c47 (Jenkins 2)
-Public IP address
- 54.176.57.64
 
